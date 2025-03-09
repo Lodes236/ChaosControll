@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--background);
+    color: var(--white);
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+h3 {
+    font-size: 1.6em;
+}
+
+h4 {
+    font-size: 1.4em;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+button {
+    padding: 5px 15px;
+    border-radius: var(--borderRadius);
+    font-weight: bold;
+    border: none;
+}
+
+button.primary {
+    background-color: var(--decorPrimary);
+    color: var(--black);
+}
+
+button.primary:hover {
+    background-color: var(--decorPrimary2);
+    color: var(--decorPrimary);
+}
+
+button.secondary {
+    background-color: var(--decorSecondary);
+    color: var(--black);
+}
+
+button.secondary:hover {
+    background-color: var(--decorSecondary2);
+    color: var(--decorSecondary);
+}
+
+button.dark {
+    background-color: var(--primary600);
+    color: var(--white);
+}
+
+button.dark:hover {
+    background-color: var(--primary200);
+    color: var(--primary600);
+}
+
+a {
+    text-decoration: none;
+    color: var(--white);
+}
+
+a:active {
+    font-weight: bold;
+}
+
+a:visited {
+    color: inherit;
+}
+
+a.imgLink {
+    border: none !important;
+}
+
+
+
+/* - - - H E A D E R - - - */
+header {
+    background-color: #4B4376;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+header nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 30px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid white;
+}
+
+header nav ul li:hover {
+    border-bottom: 1px solid #AE445A;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+/* - - - H E A D L I N E - - - */
+h1 {
+    font-size: 2.5rem;
+    color: #4B4376;
+}

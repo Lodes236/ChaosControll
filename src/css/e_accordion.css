@@ -1,0 +1,62 @@
+.accordion {
+    background-color: #AE445A;
+    color: white;
+    padding: 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    transition: background-color 0.3s ease;
+    margin-top: 15px;
+}
+
+.accordion.active {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.accordion:hover {
+    background-color: #432E54;
+}
+
+.accordion-content {
+    display: none;
+    padding: 15px;
+    background-color: #f8f8f8;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border: 1px solid #AE445A;
+    color: #4B4376;
+}
+
+.accordion.active + .accordion-content {
+    display: block;
+
+}
+
+.accordion span {
+    font-size: 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 5px 12px;
+    text-align: left;
+}
+
+td {
+    font-size: 0.8rem;
+}
+
+th {
+    color: #4B4376;
+    font-size: 1rem;
+}
+
+tbody tr:hover {
+    background-color: #4B4376;
+    color: white;
+}

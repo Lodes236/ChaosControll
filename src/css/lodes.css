@@ -1,0 +1,97 @@
+/* G R I D */
+
+.lodes-wrap {
+    width: 100%;
+}
+
+.lodes {
+    width: 100%;
+    max-width: 1450px;
+    margin: 0 auto;
+    padding: 0 25px;
+}
+
+.lodes-row {
+    display: flex;
+    padding: var(--lodes-row-space);
+    padding: var(--lodes-row-space);
+    justify-content: space-between;
+}
+
+.lodes-row.full {
+    padding: 0 !important;
+    color: var(--white) !important;
+}
+
+.lodes-wrap-black {
+    background-color: var(--black);
+    width: 100%;
+    padding: 35px 0;
+    color: var(--white);
+}
+
+.lodes-divider{
+    height: var(--lodes-divider);
+    width: 100%;
+}
+
+.lodes-row100{
+    width: 100%;
+    padding: var(--lodes-space);
+}
+
+.lodes-row90{
+    width: 90%;
+    padding: var(--lodes-space);
+}
+
+.lodes-row80{
+    width: 80%;
+    padding: var(--lodes-space);
+}
+
+.lodes-row75{
+    width: 75%;
+    padding: var(--lodes-space);
+}
+
+.lodes-row70{
+    width: 70%;
+    padding: var(--lodes-space);
+}
+
+.lodes-row60{
+    width: 60%;
+    padding: var(--lodes-space);
+}
+
+.lodes-row50{
+    width: 50%;
+    padding: var(--lodes-space);
+}
+
+.lodes-row40{
+    width: 40%;
+    padding: var(--lodes-space);
+}
+
+.lodes-row30{
+    width: 30%;
+    padding: var(--lodes-space);
+}
+
+.lodes-row25{
+    width: 25%;
+    padding: var(--lodes-space);
+}
+
+.lodes-row20{
+    width: 20%;
+    padding: var(--lodes-space);
+}
+
+.lodes-row10{
+    width: 10%;
+    padding: var(--lodes-space);
+}
+
