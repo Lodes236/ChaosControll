@@ -1,0 +1,49 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+    back
+}
+
+input#search-input {
+    background-color: #AE445A;
+    color: white;
+    padding: 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    transition: background-color 0.3s ease;
+    margin-top: 15px;
+    width: 100%;
+}
+
+#search-results {
+    padding: 15px;
+    background-color: #f8f8f8;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border: 1px solid #AE445A;
+    color: #4B4376;
+}
+
+th, td {
+    padding: 5px 12px;
+    text-align: left;
+}
+
+td {
+    font-size: 0.8rem;
+}
+
+th {
+    color: #4B4376;
+    font-size: 1rem;
+}
+
+tbody tr:hover {
+    background-color: #4B4376;
+    color: white;
+}
+
+table, tr, th, td {
+    border: none;
+}
